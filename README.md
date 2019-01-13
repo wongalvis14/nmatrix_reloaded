@@ -9,6 +9,13 @@ Fast Numerical Linear Algebra Library for Ruby
 
 ## Installation
 
+Make sure `libopenblas-dev` and `liblapacke-dev` are installed.
+To install on Ubuntu, run
+```
+sudo apt-get install libopenblas-dev
+sudo apt-get install liblapacke-dev
+```
+
 ```sh
 git clone https://github.com/prasunanand/nmatrix_reloaded
 cd nmatrix_reloaded/
